@@ -1,0 +1,17 @@
+{
+  "name": "x-ai-content-automation",
+  "version": "1.0.0",
+  "description": "Independent AI content automation portfolio demo for X",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "preview": "node src/index.js text",
+    "visual": "node src/index.js visual",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^4.104.0",
+    "twitter-api-v2": "^1.29.0"
+  }
+}
